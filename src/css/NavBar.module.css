@@ -5,21 +5,36 @@
     height : 100%;
     position : fixed;
     width : 15%;
-    box-sizing : padding-box;
+    font-size:20px;
 }
+
 .NavMenu {
     list-style-type : none;
     display : flex;
     flex-direction : column;
-    
+    padding : 1em 2em;    
 }
-.NavMenu a {
+.NavMenu li {
+    padding:6px 5px;
+}
+.NavMenu a{
     text-decoration:none;
     color:white;
+    
+}
+.NavMenu li:hover {
+    background-color : white;
+}
+.NavMenu li:hover a {
+    color:black;
 }
 
 .CompanyName {
+    display : flex;
+    flex-direction : column ;
+    margin:4em 5em 2em 2em;
     color : white;
     font-weight : bolder;
+    font-size : 23px;
 
 }
