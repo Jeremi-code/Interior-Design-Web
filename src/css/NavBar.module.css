@@ -1,0 +1,25 @@
+.NavBar {
+    margin : -8px;
+    padding : 0px;
+    background-color : rgb(244,67,54);
+    height : 100%;
+    position : fixed;
+    width : 15%;
+    box-sizing : padding-box;
+}
+.NavMenu {
+    list-style-type : none;
+    display : flex;
+    flex-direction : column;
+    
+}
+.NavMenu a {
+    text-decoration:none;
+    color:white;
+}
+
+.CompanyName {
+    color : white;
+    font-weight : bolder;
+
+}
