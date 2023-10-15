@@ -1,0 +1,6 @@
+
+.ShowCaseImages {
+    display : grid;
+    grid-template-row : 50px 50px 50px;
+    grid-template-column : 100px 100px;
+}
