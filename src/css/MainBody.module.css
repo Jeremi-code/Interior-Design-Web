@@ -1,0 +1,22 @@
+.main {
+    display : flex;
+    flex-direction : column;
+    margin-left : 17%;
+    /* padding :2em 0 10px 0;     */
+}
+h1 {
+    font-size:40px;
+    color:black;
+}
+h3{
+    margin-bottom:0.5em;
+    font-size:30px;
+    color:rgb(244,67,54);
+
+}
+.hr {
+    width:50px;
+    border:5px solid red;
+    margin-block-start:3px;
+    margin-inline-start:3px;
+}
