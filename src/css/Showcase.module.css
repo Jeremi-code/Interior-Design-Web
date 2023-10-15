@@ -1,6 +1,18 @@
-
 .ShowCaseImages {
-    display : grid;
-    grid-template-row : 50px 50px 50px;
-    grid-template-column : 100px 100px;
+    display : flex;
+    flex-direction : column;
+    overflow : hidden;
+}
+.rowImage {
+    display : flex;
+    width : 97%;
+}
+.rowImage > div {
+    width :50%;
+    padding : 5px;
+}
+div > img {
+    width : 100%;
+    height : 400px;
+
 }
