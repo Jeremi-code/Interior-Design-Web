@@ -9,16 +9,34 @@ import sixth from  '../assets/sixth.jpg'
 export default function ShowCase () {
     return(
         <div>
-            <h1>Interior Design</h1>
+            <h1 >Interior Design</h1>
             <h3>Showcase</h3>
             <hr className={horizontal.hr}/>
             <div className={classes.showCaseImages}>
+                <div className={classes.rowImage}>
+                <div>
                 <img src = {first} />
+                </div>
+                <div>
                 <img src = {second}/>
+                </div>
+                </div>
+                <div className={classes.rowImage}>
+                <div>
                 <img src = {third} />
+                </div>
+                <div>
                 <img src = {fourth} />
+                </div>                
+                </div>
+                <div className={classes.rowImage}>
+                <div>
                 <img src = {fifth} />
+                </div>
+                <div>
                 <img src = {sixth} />
+                </div>
+                </div>
 
             </div>
 
