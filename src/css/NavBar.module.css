@@ -32,7 +32,7 @@
 .CompanyName {
     display : flex;
     flex-direction : column ;
-    margin:4em 5em 2em 2em;
+    margin:2em 5em 2em 2em;
     color : white;
     font-weight : bolder;
     font-size : 23px;
