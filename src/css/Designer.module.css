@@ -1,0 +1,17 @@
+.DesContainer {
+    display : grid;
+    width : 97%;
+    grid-template-columns : 32% 32% 32%;
+    gap : 30px;
+}
+.DesImg {
+    display : grid;
+    grid-template-rows : auto auto;
+    grid-template-columns : auto ;
+    border: 1px solid #ccc;
+}
+.Description {
+    padding:10px 5px 5px 5px;
+    background-color:rgb(241,241,241);
+    color:black;
+}
