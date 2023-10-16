@@ -28,7 +28,7 @@ const Packages = () => {
                         <td>Good Deals</td>
                     </tr>
                     <tr>
-                        <td >$199</td>
+                        <td style={{borderBottom:"none"}} >$199</td>
                     </tr>
                     <tr>
                         <td  style={{color:"grey"}}>per room</td>
@@ -41,7 +41,7 @@ const Packages = () => {
             <div className={classes.PriceTable2}>
                 <table>
                     <tr>
-                        <th style={{backgroundColor:"rgb(244,67,54)"}}>Basic</th>
+                        <th style={{backgroundColor:"rgb(244,67,54)"}}>Pro</th>
                     </tr>
                     <tr>
                         <td>Floorplanting</td>
@@ -59,7 +59,7 @@ const Packages = () => {
                         <td>Good Deals</td>
                     </tr>
                     <tr>
-                        <td >$249</td>
+                        <td style={{borderBottom:"none"}}>$249</td>
                     </tr>
                     <tr>
                         <td  style={{color:"grey"}}>per room</td>
