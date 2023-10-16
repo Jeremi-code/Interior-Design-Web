@@ -3,6 +3,7 @@ import ShowCase from './ShowCase'
 import Services from './Services'
 import Designer from './Designer'
 import Packages from './Packages'
+import Contact from './contact'
 export default function MainBody () {
     return (
         <div className={classes.main}>
@@ -10,6 +11,7 @@ export default function MainBody () {
             <Services/>
             <Designer/>
             <Packages/>
+            <Contact/>
         </div>
     )
 }
