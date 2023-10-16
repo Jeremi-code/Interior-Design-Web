@@ -1,32 +1,52 @@
-.PriceTables{
-    display : flex;
-    color : black;
-    width : 95%;
-    margin-left:10px;
+.PriceTables {
+  display: flex;
+  color: black;
+  width: 95%;
+  margin-left: 10px;
 }
-td{
-    border-bottom:1px solid grey;
-    text-align:center;
-    padding:10px;   
+td {
+  border-bottom: 1px solid grey;
+  text-align: center;
+  padding: 10px;
 }
-th{
-    padding:20px;
-    color:white;
-}
-.PriceTable1{
-    background-color:#f1f1f1;
-    margin:5px;
-}
-.PriceTable2{
-    background-color:#f1f1f1;
-    margin:5px;
+th {
+  padding: 20px;
+  color: white;
 }
 .PriceTable1 {
-    width : 47%;
+  background-color: #f1f1f1;
+  margin: 5px;
 }
 .PriceTable2 {
-    width : 47%;
+  background-color: #f1f1f1;
+  margin: 5px;
+}
+.PriceTable1 {
+  width: 47%;
+}
+.PriceTable2 {
+  width: 47%;
 }
 table {
-    width : 100%;
+  width: 100%;
+}
+.PriceTable1 input[type="submit"] {
+  padding: 15px;
+  background-color: white;
+  border: none;
+}
+.PriceTable2 input[type="submit"] {
+  padding: 15px;
+  background-color: rgb(244, 67, 54);
+  border: none;
+  color: white;
+}
+.PriceTable1 input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}
+.PriceTable2  input[type="submit"]:hover {
+  color: white;
+  background-color: black;
+  border: none;
 }
