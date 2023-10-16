@@ -1,12 +1,13 @@
 .DesContainer {
     display : grid;
     width : 97%;
-    grid-template-columns : 32% 32% 32%;
+    grid-template-columns : 29% 29% 29%;
     gap : 30px;
+    margin-left : 20px;
 }
 .DesImg {
     display : grid;
-    grid-template-rows : auto auto;
+    grid-template-rows : 350px auto;
     grid-template-columns : auto ;
     border: 1px solid #ccc;
 }
