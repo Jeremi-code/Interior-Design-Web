@@ -18,9 +18,9 @@ const Designer = () => {
         <img src={Ermias}/>
         </>
         <div className={classes.Description}>
-          <p style={{fontWeight:"bolder"}}>Ermias Sintayehu</p>
+          <p style={{fontWeight:"bold"}}>Ermias Sintayehu</p>
           <p style={{color:"grey"}}>Software Engineer</p>
-          <p>Web designer and application developer</p>
+          <p>MERN-Stack Developer</p>
         </div>
       </div>
       <div className={classes.DesImg}>
@@ -28,9 +28,9 @@ const Designer = () => {
         <img src={Samuel}/>
         </>
         <div className={classes.Description}>
-          <p style={{fontWeight:"bolder"}}>Ermias Sintayehu</p>
-          <p style={{color:"grey"}}>Software Engineer</p>
-          <p>Web designer and application developer</p>
+          <p style={{fontWeight:"bold"}}>Samuel Sintayehu</p>
+          <p style={{color:"grey"}}>Architect</p>
+          <p>Top-Rated Architecht</p>
         </div>
       </div>
       <div className={classes.DesImg}>
@@ -38,9 +38,9 @@ const Designer = () => {
         <img src={Wendimu}/>
         </>
         <div className={classes.Description}>
-          <p style={{fontWeight:"bolder"}}>Ermias Sintayehu</p>
-          <p style={{color:"grey"}}>Software Engineer</p>
-          <p>Web designer and application developer</p>
+          <p style={{fontWeight:"bold"}}>Wendimu Sitotaw</p>
+          <p style={{color:"grey"}}>Computer Engineer</p>
+          <p>MEVN-Stack Developer</p>
         </div>
       </div>
     </div>
