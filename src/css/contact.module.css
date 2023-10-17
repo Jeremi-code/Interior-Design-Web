@@ -1,0 +1,19 @@
+.contact>input {
+    box-sizing:border-box;
+    display:block;
+    width:100%;
+    padding:10px 20px;
+    margin:1em 0em;
+}
+.contact input[type="submit"]{
+    background-color:rgb(244,67,54);
+    color:white;
+    border:none;
+}
+.contact input[type="submit"]:hover{
+    background-color:#f1f1f1;
+    color:black;
+}
+.contact{
+    margin:1em 0 10px 0;
+}
