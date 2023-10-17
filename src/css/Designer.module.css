@@ -16,3 +16,6 @@
     background-color:rgb(241,241,241);
     color:black;
 }
+.DesImg img {
+    opacity : 1;
+}
