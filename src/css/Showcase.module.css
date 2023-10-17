@@ -11,8 +11,12 @@
     width :50%;
     padding : 5px;
 }
-div > img {
+div >  img {
     width : 100%;
     height : 400px;
+    opacity : 0.8;
 
+}
+ div>img:hover {
+    opacity : 1;
 }
