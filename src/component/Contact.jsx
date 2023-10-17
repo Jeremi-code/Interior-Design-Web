@@ -1,12 +1,12 @@
 import horizontal from '../css/MainBody.module.css'
-import classes from '../css/MainBody.module.css'
+import classes from '../css/contact.module.css'
 const Contact = () => {
   return (
-    <div >
+    <div className={classes.contact} >
         <h3>Contacts</h3>
         <hr className={horizontal.hr}/>
         <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
-        <form className={classes.contact}>
+        <form >
             <label for="name">name</label>
             <input type="text"/>
             <label for="email">email</label>  
