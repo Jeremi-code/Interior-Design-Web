@@ -1,7 +1,7 @@
-.contact>input {
+.contact input {
     box-sizing:border-box;
     display:block;
-    width:100%;
+    width:95%;
     padding:10px 20px;
     margin:1em 0em;
 }
