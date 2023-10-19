@@ -3,7 +3,7 @@ export default function NavigationMenu () {
     return (
         <div className={classes.NavBar}>
             <div className={classes.CompanyName}>
-                <p>Company name</p>
+                <p>Company Name</p>
             </div>
             <ul className={classes.NavMenu}>
                 <li><a href="">Home</a></li>
