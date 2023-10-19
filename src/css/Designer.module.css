@@ -19,3 +19,10 @@
 .DesImg img {
     opacity : 1;
 }
+@media ( max-width : 990px) {
+    .DesImg {
+        display : grid;
+        grid-template-rows : 300px auto;
+        
+    }
+}
