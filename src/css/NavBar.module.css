@@ -38,3 +38,17 @@
     font-size : 23px;
 
 }
+
+@media (max-width : 990px) {
+    .NavBar {
+        width : 100%;
+        position : fixed;
+        height : 5%;
+    }
+    .NavMenu {
+        display:none;
+    }
+    .CompanyName {
+        margin : 10px;
+    }
+}
