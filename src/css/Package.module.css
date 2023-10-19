@@ -1,7 +1,7 @@
 .PriceTables {
   display: flex;
   color: black;
-  width: 95%;
+  width: 96%;
   margin-left: 10px;
 }
 td {
@@ -49,4 +49,18 @@ table {
   color: white;
   background-color: black;
   border: none;
+}
+@media ( max-width : 600px) {
+  .PriceTables {
+    display : flex;
+    flex-direction : column;
+    margin-left : 6px;
+    width : 97%;
+  }
+  .PriceTable1 {
+    width : 100%;
+  }
+  .PriceTable2 {
+    width : 100%;
+  }
 }
