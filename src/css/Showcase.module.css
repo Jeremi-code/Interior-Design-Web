@@ -1,7 +1,6 @@
 .ShowCaseImages {
     display : flex;
     flex-direction : column;
-    overflow : hidden;
 }
 .rowImage {
     display : flex;
@@ -19,4 +18,13 @@ div >  img {
 }
  div>img:hover {
     opacity : 1;
+}
+@media (max-width : 990px) {
+    .rowImage {
+        width : 99%;
+    }
+    div > img {
+        height : 300px;
+
+    }
 }
