@@ -1,7 +1,7 @@
 .DesContainer {
   display: grid;
   width: 97%;
-  grid-template-columns: 29% 29% 29%;
+  grid-template-columns: 30.5% 30.5% 30.5%;
   gap: 30px;
   margin-left: 20px;
 }
