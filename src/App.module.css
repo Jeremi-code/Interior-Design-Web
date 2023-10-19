@@ -2,3 +2,12 @@
   display: flex;
   flex-direction:row;
 }
+@media ( max-width : 992px) {
+  .whole {
+    display : flex;
+    flex-direciton: column;
+
+  }
+  
+
+}
