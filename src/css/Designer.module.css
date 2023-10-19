@@ -1,28 +1,44 @@
 .DesContainer {
-    display : grid;
-    width : 97%;
-    grid-template-columns : 29% 29% 29%;
-    gap : 30px;
-    margin-left : 20px;
+  display: grid;
+  width: 97%;
+  grid-template-columns: 29% 29% 29%;
+  gap: 30px;
+  margin-left: 20px;
 }
 .DesImg {
-    display : grid;
-    grid-template-rows : 350px auto;
-    grid-template-columns : auto ;
-    border: 1px solid #ccc;
+  display: grid;
+  grid-template-rows: 350px auto;
+  grid-template-columns: auto;
+  border: 1px solid #ccc;
 }
 .Description {
-    padding:10px 5px 5px 5px;
-    background-color:rgb(241,241,241);
-    color:black;
+  padding: 10px 5px 5px 5px;
+  background-color: rgb(241, 241, 241);
+  color: black;
 }
 .DesImg img {
-    opacity : 1;
+  opacity: 1;
 }
-@media ( max-width : 990px) {
+@media (max-width: 990px) {
+  .DesImg {
+    display: grid;
+    grid-template-rows: 300px auto;
+  }
+}
+@media (max-width: 789px) {
+  .DesImg {
+    grid-template-rows: 250px auto;
+  }
+}
+@media (max-width: 600px) {
+    .DesContainer {
+        grid-template-columns : 98%;
+        margin-left : 8px;
+    }
     .DesImg {
-        display : grid;
-        grid-template-rows : 300px auto;
-        
+        grid-template-rows : 400px auto;
+    }
+    .DesImg img {
+        height:400px;
     }
 }
