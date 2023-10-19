@@ -7,9 +7,9 @@ const Contact = () => {
         <hr className={horizontal.hr}/>
         <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
         <form >
-            <label for="name">name</label>
+            <label for="name">Name</label>
             <input type="text"/>
-            <label for="email">email</label>  
+            <label for="email">Email</label>  
             <input type="text"/>
             <label for="Message">Message</label >
             <input type="text"/>
