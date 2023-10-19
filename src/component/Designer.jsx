@@ -7,7 +7,7 @@ import Wendimu from "../assets/Wende.jpg";
 const Designer = () => {
   return (
     <div>
-      <h3>Designers</h3>
+      <h3 id="designer">Designers</h3>
       <hr className={horizontal.hr} />
       <p>
         The best team in the world.

@@ -4,7 +4,7 @@ import horizontal from "../css/MainBody.module.css";
 const Services = () => {
   return (
     <div>
-      <h3>Services</h3>
+      <h3 id="services">Services</h3>
       <hr className={horizontal.hr} />
       <p>
         We are a interior design service that focus on what's best for your home

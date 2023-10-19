@@ -3,7 +3,7 @@ import classes from "../css/Package.module.css";
 const Packages = () => {
   return (
     <div>
-      <h3>Packages</h3>
+      <h3 id="package">Packages</h3>
       <hr className={horizontal.hr} />
       <p>
         Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do

@@ -7,22 +7,22 @@ export default function NavigationMenu() {
       </div>
       <ul className={classes.NavMenu}>
         <li>
-          <a href="">Home</a>
+          <a href="#showcase">Home</a>
         </li>
         <li>
-          <a href="">Showcase</a>
+          <a href="#showcase">Showcase</a>
         </li>
         <li>
-          <a href="">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="">Designers</a>
+          <a href="#designer">Designers</a>
         </li>
         <li>
-          <a href="">Package</a>
+          <a href="#package">Package</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>

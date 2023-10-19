@@ -10,7 +10,7 @@ export default function ShowCase() {
   return (
     <div>
       <h1>Interior Design</h1>
-      <h3>Showcase</h3>
+      <h3 id="showcase">Showcase.</h3>
       <hr className={horizontal.hr} />
       <div className={classes.showCaseImages}>
         <div className={classes.rowImage}>

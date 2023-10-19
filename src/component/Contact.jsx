@@ -3,7 +3,7 @@ import classes from "../css/contact.module.css";
 const Contact = () => {
   return (
     <div className={classes.contact}>
-      <h3>Contacts</h3>
+      <h3 id="contact">Contacts</h3>
       <hr className={horizontal.hr} />
       <p>
         Do you want us to style your home? Fill out the form and fill me in with
