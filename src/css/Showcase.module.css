@@ -1,43 +1,41 @@
 .ShowCaseImages {
-    display : flex;
-    flex-direction : column;
+  display: flex;
+  flex-direction: column;
 }
 .rowImage {
-    display : flex;
-    width : 97%;
+  display: flex;
+  width: 97%;
 }
 .rowImage > div {
-    width :50%;
-    padding : 5px;
+  width: 50%;
+  padding: 5px;
 }
-div >  img {
-    width : 100%;
-    height : 400px;
-    opacity : 0.8;
-
+div > img {
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
 }
- div>img:hover {
-    opacity : 1;
+div > img:hover {
+  opacity: 1;
 }
-@media (max-width : 990px) {
-    .rowImage {
-        width : 99%;
-    }
-    div > img {
-        height : 300px;
-
-    }
+@media (max-width: 990px) {
+  .rowImage {
+    width: 99%;
+  }
+  div > img {
+    height: 300px;
+  }
 }
-@media (max-width : 600px) {
-    .rowImage {
-        display : flex;
-        flex-direction : column;
-        width : 100%;
-    }
-    .rowImage > div {
-        width : 100%;
-    }
-    div > img {
-        height : 300px;
-    }
+@media (max-width: 600px) {
+  .rowImage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .rowImage > div {
+    width: 100%;
+  }
+  div > img {
+    height: 300px;
+  }
 }

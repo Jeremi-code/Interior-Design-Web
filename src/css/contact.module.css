@@ -1,23 +1,22 @@
 .contact input {
-    box-sizing:border-box;
-    display : block;
-    width:92%;
-    padding:10px 20px;
-    margin:0.5em 1em;
-
+  box-sizing: border-box;
+  display: block;
+  width: 92%;
+  padding: 10px 20px;
+  margin: 0.5em 1em;
 }
 .contact label {
-    margin : 0em 1em ;
+  margin: 0em 1em;
 }
-.contact input[type="submit"]{
-    background-color:rgb(244,67,54);
-    color:white;
-    border:none;
+.contact input[type="submit"] {
+  background-color: rgb(244, 67, 54);
+  color: white;
+  border: none;
 }
-.contact input[type="submit"]:hover{
-    background-color:#f1f1f1;
-    color:black;
+.contact input[type="submit"]:hover {
+  background-color: #f1f1f1;
+  color: black;
 }
-.contact{
-    margin:1em 0 10px 0;
+.contact {
+  margin: 1em 0 10px 0;
 }

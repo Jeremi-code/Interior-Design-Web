@@ -1,15 +1,12 @@
 .whole {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
 }
-@media ( max-width : 992px) {
+@media (max-width: 992px) {
   .whole {
-    display : flex;
+    display: flex;
     flex-direciton: column;
-    overflow : hidden;
-    width : 100%;
-
+    overflow: hidden;
+    width: 100%;
   }
-  
-
 }

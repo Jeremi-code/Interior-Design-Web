@@ -1,59 +1,56 @@
 .NavBar {
-    margin : -8px;
-    padding : 0px;
-    background-color : rgb(244,67,54);
-    height : 100%;
-    position : fixed;
-    width : 15%;
-    font-size:20px;
+  margin: -8px;
+  padding: 0px;
+  background-color: rgb(244, 67, 54);
+  height: 100%;
+  position: fixed;
+  width: 15%;
+  font-size: 20px;
 }
 
 .NavMenu {
-    list-style-type : none;
-    display : flex;
-    flex-direction : column;
-    padding : 1em 2em;    
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em;
 }
 .NavMenu li {
-    padding:6px 5px;
+  padding: 6px 5px;
 }
-.NavMenu a{
-    text-decoration:none;
-    color:white;
-    
+.NavMenu a {
+  text-decoration: none;
+  color: white;
 }
 .NavMenu li:hover {
-    background-color : white;
+  background-color: white;
 }
 .NavMenu li:hover a {
-    color:black;
+  color: black;
 }
 
 .CompanyName {
-    display : flex;
-    flex-direction : column ;
-    margin:2em 5em 2em 2em;
-    color : white;
-    font-weight : bolder;
-    font-size : 23px;
-
+  display: flex;
+  flex-direction: column;
+  margin: 2em 5em 2em 2em;
+  color: white;
+  font-weight: bolder;
+  font-size: 23px;
 }
 
-@media (max-width : 990px) {
-    .NavBar {
-        width : 100%;
-        position : fixed;
-        height : 10%;
-        z-index : 1;
-    }
-    .NavMenu {
-        display:none;
-    }
-    .CompanyName {
-        margin : 5px 10px 2em 1em;
-        display : flex;
-        justify-content : center;
-        color: white;
-    
-    }
+@media (max-width: 990px) {
+  .NavBar {
+    width: 100%;
+    position: fixed;
+    height: 10%;
+    z-index: 1;
+  }
+  .NavMenu {
+    display: none;
+  }
+  .CompanyName {
+    margin: 5px 10px 2em 1em;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
 }

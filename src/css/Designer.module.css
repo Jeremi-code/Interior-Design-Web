@@ -31,14 +31,14 @@
   }
 }
 @media (max-width: 600px) {
-    .DesContainer {
-        grid-template-columns : 98%;
-        margin-left : 8px;
-    }
-    .DesImg {
-        grid-template-rows : 400px auto;
-    }
-    .DesImg img {
-        height:400px;
-    }
+  .DesContainer {
+    grid-template-columns: 98%;
+    margin-left: 8px;
+  }
+  .DesImg {
+    grid-template-rows: 400px auto;
+  }
+  .DesImg img {
+    height: 400px;
+  }
 }
