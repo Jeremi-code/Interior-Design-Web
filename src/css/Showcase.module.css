@@ -28,3 +28,16 @@ div >  img {
 
     }
 }
+@media (max-width : 600px) {
+    .rowImage {
+        display : flex;
+        flex-direction : column;
+        width : 100%;
+    }
+    .rowImage > div {
+        width : 100%;
+    }
+    div > img {
+        height : 300px;
+    }
+}
