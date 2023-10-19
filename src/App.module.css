@@ -6,6 +6,8 @@
   .whole {
     display : flex;
     flex-direciton: column;
+    overflow : hidden;
+    width : 100%;
 
   }
   
