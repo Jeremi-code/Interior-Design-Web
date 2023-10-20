@@ -33,8 +33,10 @@ p {
 @media (max-width: 990px) {
   .main {
     margin-left: 0%;
+    margin-top : 8%;
   }
   p {
     margin-right: 20px;
   }
+
 }
