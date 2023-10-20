@@ -3,7 +3,7 @@
   padding: 0px;
   /* background-color: rgb(244, 67, 54); */
   background-color: #f44336;
-  height: 100%;
+  height: 103%;
   position: fixed;
   width: 17%;
   font-size: 20px;
@@ -36,25 +36,34 @@
   color: white;
 }
 .CompanyName p {
-  padding-top: 1em;
+  padding-top: 0.5em;
   font-size: 23px;
   font-weight: bold;
 }
 
 @media (max-width: 990px) {
   .NavBar {
-    width: 100%;
+    width: 103%;
     position: fixed;
     height: 10%;
     z-index: 1;
+    margin-bottom : 10px;
   }
   .NavMenu {
     display: none;
   }
   .CompanyName {
-    margin: 15px 10px 2em 1em;
-    display: flex;
-    justify-content: center;
+    position : relative;
+    margin-block-start : 0px ;
+    margin-block-end : 0;
+    margin-inline-start : 0;
+    margin-inline-end : 0;
+    padding : 0px;
     color: white;
+  }
+  .CompanyName p {
+    font-size : 30px;
+    padding-top : 6px;
+    padding-left : 40px;
   }
 }
