@@ -1,9 +1,9 @@
 .DesContainer {
   display: grid;
   width: 97%;
-  grid-template-columns: 30.5% 30.5% 30.5%;
+  grid-template-columns: 30.25% 30.25% 30.25%;
   gap: 30px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .DesImg {
   display: grid;
