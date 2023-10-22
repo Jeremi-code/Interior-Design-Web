@@ -9,7 +9,7 @@ const Contact = () => {
         Do you want us to style your home? Fill out the form and fill me in with
         the details :) We love meeting new people!
       </p>
-      <form>
+      <form method="POST" action="/sendMessage">
         <label for="name">Name</label>
         <input type="text" />
         <label for="email">Email</label>
