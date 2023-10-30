@@ -1,6 +1,8 @@
+@import "../node_modules/typeface-poppins"; 
 .whole {
   display: flex;
   flex-direction: row;
+  font-family : 'Poppins' , sans-serif;
 }
 @media (max-width: 992px) {
   .whole {
