@@ -40,6 +40,11 @@
   font-size: 23px;
   font-weight: bold;
 }
+.iconStyle {
+  display : none;
+  color : white;
+  size : 2x;
+}
 
 @media (max-width: 990px) {
   .NavBar {
@@ -55,15 +60,25 @@
   .CompanyName {
     position : relative;
     margin-block-start : 0px ;
-    margin-block-end : 0;
-    margin-inline-start : 0;
+    margin-block-end : 10px;
+    margin-inline-start : 5px;;
     margin-inline-end : 0;
     padding : 0px;
     color: white;
   }
   .CompanyName p {
     font-size : 30px;
-    padding-top : 6px;
+    padding-top : 0;
     padding-left : 40px;
+  }
+  .compMenu {
+    display : flex;
+    flex-direction : row;
+    margin-inline-start : 40px;
+  }
+  .iconStyle {
+    display : flex;
+    margin-block-start : 35px;
+    font-size : 30px;
   }
 }
