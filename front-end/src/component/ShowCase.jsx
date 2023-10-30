@@ -20,7 +20,6 @@ export default function ShowCase() {
     }
     const handleClick = (event) => {
         document.getElementById("myModal").style.display = "none"
-        // event.target.style.display="none";
     }
   return (
     <div>
