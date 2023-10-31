@@ -11,6 +11,7 @@ const Packages = () => {
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
         ex ea commodo consequat. Duis aute irure
       </p>
+      <br/>
       <div className={classes.PriceTables}>
         <div className={classes.PriceTable1}>
           <table>
