@@ -16,6 +16,10 @@
   background-color: rgb(241, 241, 241);
   color: black;
 }
+.Description p {
+  padding-top : 10px;
+  padding-bottom : 10px;
+}
 .DesImg img {
   opacity: 1;
 }
