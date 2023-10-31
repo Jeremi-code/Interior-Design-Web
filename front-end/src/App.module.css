@@ -1,8 +1,11 @@
-@import "../node_modules/typeface-poppins"; 
+@import "../node_modules/typeface-poppins";
+* {
+  margin: 0px;
+}
 .whole {
   display: flex;
   flex-direction: row;
-  font-family : 'Poppins' , sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 @media (max-width: 992px) {
   .whole {
