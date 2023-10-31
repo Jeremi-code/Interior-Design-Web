@@ -1,9 +1,7 @@
 .NavBar {
-  margin: -18px;
   padding: 0px;
-  /* background-color: rgb(244, 67, 54); */
   background-color: #f44336;
-  height: 103%;
+  height: 100%;
   position: fixed;
   width: 17%;
   font-size: 20px;
