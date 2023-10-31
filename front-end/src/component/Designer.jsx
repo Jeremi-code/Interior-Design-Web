@@ -23,9 +23,11 @@ const Designer = () => {
         incididunt ut labore et quis nostrud exercitation ullamco laboris nisi
         ut aliquip ex ea commodo consequat.
       </p>
+      <br/>
       <p style={{ fontWeight: "bolder" }}>
         Our designers are thoughtfully choosen
       </p>
+      <br/>
       <div className={classes.DesContainer}>
         <div className={classes.DesImg}>
           <>
