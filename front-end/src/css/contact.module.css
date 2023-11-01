@@ -8,6 +8,9 @@
 .contact label {
   margin: 0em 1em;
 }
+.contact p {
+  margin-bottom: 1em;
+}
 .contact input[type="submit"] {
   background-color: rgb(244, 67, 54);
   color: white;
