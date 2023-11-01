@@ -6,6 +6,32 @@
   width: 17%;
   font-size: 18px;
 }
+.toggleMenu {
+  list-style-type : none;
+  display : flex;
+  flex-direction : column;
+  background-color :#f44336;
+  position : absolute;
+  left : 0;
+  /* margin : 0; */
+  height : 1000px;
+  width : 300px;
+  padding : 0;
+}
+.toggleMenu li {
+  padding : 6px 2em;
+}
+.toggleMenu a {
+  text-decoration : none;
+  color : white;
+}
+
+.toggleMenu li:hover {
+  background-color: white;
+}
+.toggleMenu li:hover a {
+  color: black;
+}
 
 .NavMenu {
   list-style-type: none;
@@ -25,6 +51,17 @@
 }
 .NavMenu li:hover a {
   color: black;
+}
+.NavCompanyName {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 5em 2em 1.5em;
+  color: white;  
+}
+.NavCompanyName p {
+  padding-top: 0.5em;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .CompanyName {
