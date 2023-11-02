@@ -1,8 +1,8 @@
 import classes from "../css/Designer.module.css";
 import horizontal from "../css/MainBody.module.css";
 import Ermias from "../assets/Ermias.jpg";
-import Samuel from "../assets/Sami.jpg";
-import Wendimu from "../assets/Wende.jpg";
+import Samuel from "../assets/sami.jpg";
+import Wendimu from "../assets/wende.jpg";
 
 const Designer = () => {
   return (
