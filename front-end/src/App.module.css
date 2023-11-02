@@ -10,7 +10,7 @@
 @media (max-width: 992px) {
   .whole {
     display: flex;
-    flex-direciton: column;
+    flex-direction: column;
     overflow: hidden;
     width: 100%;
   }
