@@ -23,7 +23,7 @@ export default function NavigationMenu() {
         <p>Company Name</p>
       </div>        
         <li>
-          <a href="#showcase">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="#showcase">Showcase</a>
@@ -49,7 +49,7 @@ export default function NavigationMenu() {
       </div> 
       <ul className={classes.NavMenu}>
         <li>
-          <a href="#showcase">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="#showcase">Showcase</a>
