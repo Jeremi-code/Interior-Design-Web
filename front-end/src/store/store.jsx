@@ -31,9 +31,12 @@ const Reducer = (state,action) => {
             }
             return state
         case 'NAVBAR_CLICK' : 
-            return {
-                ...state,
-                isNavBarClicked : !state.isNavBarClicked
+            if(!state.isNavBarClicked){
+                return {
+                    ...state,
+                    isNavBarClicked : !state.isNavBarClicked
+                }
             }
+            return state
     }
 }
