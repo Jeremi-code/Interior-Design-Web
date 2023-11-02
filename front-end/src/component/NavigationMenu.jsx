@@ -6,7 +6,7 @@ import { GlobalContext } from "../store/store";
 export default function NavigationMenu() {
 
   const {state} = useContext(GlobalContext)
-  const { handleNavBarClick } = useContext(GlobalContext)
+  const { handleNavBarClick,handleMainBodyClick } = useContext(GlobalContext)
   console.log(state)
   
   return (
@@ -18,7 +18,7 @@ export default function NavigationMenu() {
 
     }{state.isNavBarClicked && 
       <ul className={classes.toggleMenu} >
-        <p style={{fontSize:'22px',color:'white',marginBottom:'20px',textAlign : 'center',marginTop:'5px' }} className="p">Close Menu</p>
+        <p style={{fontSize:'22px',color:'white',marginBottom:'20px',textAlign : 'center',marginTop:'5px' }} className="p" onClick={() => handleMainBodyClick()}>Close Menu</p>
         <div className={classes.NavCompanyName}>
         <p>Company Name</p>
       </div>        
