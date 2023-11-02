@@ -11,7 +11,7 @@ export default function NavigationMenu() {
   
   return (
     <div className={classes.NavBar} >
-      <div className={classes.compMenu}>
+      <div className={classes.compMenu} onClick={()=> handleNavBarClick()} >
         <div style= {{display : 'flex',flexDirection : 'column'}}>
         { !state.isNavBarClicked && 
       <FontAwesomeIcon icon = {faBars} className={classes.iconStyle} onClick= {() => {handleNavBarClick()}}/>
