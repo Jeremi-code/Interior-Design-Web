@@ -67,3 +67,9 @@ p {
     margin-top : 2.5em;
   }
 }
+
+@media (max-width : 757px) and (min-width : 601px) {
+  p {
+    margin-right : 5px;
+  }
+}
