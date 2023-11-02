@@ -1,8 +1,11 @@
 import horizontal from "../css/MainBody.module.css";
 import classes from "../css/Package.module.css";
+import { useContext } from "react";
+import { GlobalContext } from "../store/store";
 const Packages = () => {
+  const { handleMainBodyClick } = useContext(GlobalContext)
   return (
-    <div>
+    <div onClick={() => handleMainBodyClick()}>
       <h3 id="package">Packages</h3>
       <hr className={horizontal.hr} />
       <p>
