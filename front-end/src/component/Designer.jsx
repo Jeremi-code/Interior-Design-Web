@@ -39,7 +39,7 @@ const Designer = () => {
           <div className={classes.Description}>
             <p style={{ fontWeight: "bold" }}>Ermias Sintayehu</p>
             <p style={{ color: "grey" }}>Software Engineer</p>
-            <p>MERN-Stack Developer</p>
+            <p>MERN Developer</p>
           </div>
         </div>
         <div className={classes.DesImg}>
@@ -49,7 +49,7 @@ const Designer = () => {
           <div className={classes.Description}>
             <p style={{ fontWeight: "bold" }}>Samuel Sintayehu</p>
             <p style={{ color: "grey" }}>Architect</p>
-            <p>Top-Rated Architecht</p>
+            <p>Best Architecht</p>
           </div>
         </div>
         <div className={classes.DesImg}>
@@ -59,7 +59,7 @@ const Designer = () => {
           <div className={classes.Description}>
             <p style={{ fontWeight: "bold" }}>Wendimu Sitotaw</p>
             <p style={{ color: "grey" }}>Computer Engineer</p>
-            <p>MEVN-Stack Developer</p>
+            <p>MEVN Developer</p>
           </div>
         </div>
       </div>
