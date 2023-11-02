@@ -3,10 +3,13 @@ import horizontal from "../css/MainBody.module.css";
 import Ermias from "../assets/Ermias.jpg";
 import Samuel from "../assets/sami.jpg";
 import Wendimu from "../assets/wende.jpg";
+import { GlobalContext } from "../store/store";
+import { useContext } from "react";
 
 const Designer = () => {
+  const { handleMainBodyClick } = useContext(GlobalContext)
   return (
-    <div>
+    <div onClick={() => handleMainBodyClick()}>
       <h3 id="designer">Designers</h3>
       <hr className={horizontal.hr} />
       <p>
