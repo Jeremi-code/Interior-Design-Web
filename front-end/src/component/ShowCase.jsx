@@ -5,7 +5,9 @@ import second from "../assets/second.jpg";
 import third from "../assets/third.jpg";
 import fourth from "../assets/fourth.jpg";
 import fifth from "../assets/fifth.jpg";
-import sixth from "../assets/sixth.jpg";
+import sixth from "../assets/sixth.jpg"; 
+import { useContext } from "react";
+import { GlobalContext } from "../store/store";
 export default function ShowCase() {
     const ImgClick = (event) => {
         console.log(event.target.src)
@@ -21,8 +23,9 @@ export default function ShowCase() {
     const handleClick = (event) => {
         document.getElementById("myModal").style.display = "none"
     }
+    const { handleMainBodyClick } = useContext(GlobalContext)
   return (
-    <div>
+    <div onClick={() => handleMainBodyClick()}>
       <h1>Interior Design</h1>
       <h3 id="showcase">Showcase.</h3>
       <hr className={horizontal.hr} />
