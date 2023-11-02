@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import horizontal from "../css/MainBody.module.css";
 import classes from "../css/contact.module.css";
+import { useContext } from "react";
+import { GlobalContext } from "../store/store";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -22,9 +24,9 @@ const Contact = () => {
       .then((result) => console.log(result))
       .catch((error) => console.log(error));
   };
-
+  const { handleMainBodyClick } = useContext(GlobalContext)
   return (
-    <div className={classes.contact}>
+    <div className={classes.contact} onClick={() => handleMainBodyClick()} >
       <h3 id="contact">Contacts</h3>
       <hr className={horizontal.hr} />
       <p>
