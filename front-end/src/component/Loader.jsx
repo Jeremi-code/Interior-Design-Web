@@ -1,8 +1,9 @@
 import React from 'react'
+import Classes from '../css/loader.module.css'
 
 const Loader = () => {
   return (
-    <div className={classes.customSpinner}></div>
+    <div className={Classes.customSpinner}></div>
   )
 }
 
