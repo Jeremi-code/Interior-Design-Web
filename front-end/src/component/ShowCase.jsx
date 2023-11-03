@@ -10,15 +10,8 @@ import { useContext } from "react";
 import { GlobalContext } from "../store/store";
 export default function ShowCase() {
   const ImgClick = (event) => {
-    console.log(event.target.src);
     document.getElementById("Img01").src = event.target.src;
-    console.log(document.getElementById("Img01").src);
-    var captionText = document.getElementById("caption");
-    console.log(captionText);
-    captionText.innerHTML = event.target.alt;
-    console.log(event.target.alt);
     document.getElementById("myModal").style.display = "block";
-    captionText.style.display = "block";
   };
   const handleClick = (event) => {
     document.getElementById("myModal").style.display = "none";

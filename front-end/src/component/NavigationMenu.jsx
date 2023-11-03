@@ -6,8 +6,6 @@ import { GlobalContext } from "../store/store";
 export default function NavigationMenu() {
   const { state } = useContext(GlobalContext);
   const { handleNavBarClick, handleMainBodyClick } = useContext(GlobalContext);
-  console.log(state);
-
   return (
     <div className={classes.NavBar}>
       <div className={classes.compMenu}>
