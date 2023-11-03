@@ -3,21 +3,19 @@ import horizontal from "../css/MainBody.module.css";
 import classes from "../css/contact.module.css";
 import { useContext } from "react";
 import { GlobalContext } from "../store/store";
-import Loader from './Loader'
-import {toast} from 'react-toastify'
+import Loader from "./Loader";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [isLoading,setLoading] = useState(false)
+  const [isLoading, setLoading] = useState(false);
 
   const handleSubmit = (ev) => {
     ev.preventDefault();
-    setLoading(!isLoading)
-    console.log(isLoading)
+    setLoading(!isLoading);
     const data = { name, email, message };
-    console.log(JSON.stringify(data)), console.log(data);
     fetch("http://localhost:5000/sendMessage", {
       method: "POST",
       headers: {
@@ -25,20 +23,20 @@ const Contact = () => {
       },
       body: JSON.stringify(data),
     })
-      .then((response) =>  {
-        response.json()
-        setLoading(false)
-        toast.success("Message recieved succesfully")
+      .then((response) => {
+        response.json();
+        setLoading(false);
+        toast.success("Message recieved succesfully");
       })
       .then((result) => console.log(result))
       .catch((error) => {
-        setLoading(false)
-        toast.error("Server busy , Try again later")
+        setLoading(false);
+        toast.error("Server busy , Try again later");
       });
   };
-  const { handleMainBodyClick } = useContext(GlobalContext)
+  const { handleMainBodyClick } = useContext(GlobalContext);
   return (
-    <div className={classes.contact} onClick={() => handleMainBodyClick()} >
+    <div className={classes.contact} onClick={() => handleMainBodyClick()}>
       <h3 id="contact">Contacts</h3>
       <hr className={horizontal.hr} />
       <p>
