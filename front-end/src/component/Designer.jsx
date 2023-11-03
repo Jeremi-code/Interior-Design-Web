@@ -7,7 +7,7 @@ import { GlobalContext } from "../store/store";
 import { useContext } from "react";
 
 const Designer = () => {
-  const { handleMainBodyClick } = useContext(GlobalContext)
+  const { handleMainBodyClick } = useContext(GlobalContext);
   return (
     <div onClick={() => handleMainBodyClick()}>
       <h3 id="designer">Designers</h3>
@@ -26,11 +26,11 @@ const Designer = () => {
         incididunt ut labore et quis nostrud exercitation ullamco laboris nisi
         ut aliquip ex ea commodo consequat.
       </p>
-      <br/>
+      <br />
       <p style={{ fontWeight: "bolder" }}>
         Our designers are thoughtfully choosen
       </p>
-      <br/>
+      <br />
       <div className={classes.DesContainer}>
         <div className={classes.DesImg}>
           <>

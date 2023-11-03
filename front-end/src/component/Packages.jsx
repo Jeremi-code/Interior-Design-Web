@@ -3,7 +3,7 @@ import classes from "../css/Package.module.css";
 import { useContext } from "react";
 import { GlobalContext } from "../store/store";
 const Packages = () => {
-  const { handleMainBodyClick } = useContext(GlobalContext)
+  const { handleMainBodyClick } = useContext(GlobalContext);
   return (
     <div onClick={() => handleMainBodyClick()}>
       <h3 id="package">Packages</h3>
@@ -14,7 +14,7 @@ const Packages = () => {
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
         ex ea commodo consequat. Duis aute irure
       </p>
-      <br/>
+      <br />
       <div className={classes.PriceTables}>
         <div className={classes.PriceTable1}>
           <table>
