@@ -27,15 +27,13 @@ const Contact = () => {
     })
       .then((response) =>  {
         response.json()
-        console.log('wakanda')
         setLoading(false)
         toast.success("Message recieved succesfully")
       })
       .then((result) => console.log(result))
       .catch((error) => {
         setLoading(false)
-        console.log(isLoading)
-        toast.error("unable to create a user")
+        toast.error("Server busy , Try again later")
       });
   };
   const { handleMainBodyClick } = useContext(GlobalContext)
