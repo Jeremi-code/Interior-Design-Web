@@ -3,14 +3,19 @@ import horizontal from "../css/MainBody.module.css";
 import classes from "../css/contact.module.css";
 import { useContext } from "react";
 import { GlobalContext } from "../store/store";
+import Loader from './Loader'
+import {toast} from 'react-toastify'
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [isLoading,setLoading] = useState(false)
 
   const handleSubmit = (ev) => {
     ev.preventDefault();
+    setLoading(!isLoading)
+    console.log(isLoading)
     const data = { name, email, message };
     console.log(JSON.stringify(data)), console.log(data);
     fetch("http://localhost:5000/sendMessage", {
@@ -20,9 +25,18 @@ const Contact = () => {
       },
       body: JSON.stringify(data),
     })
-      .then((response) => response.json())
+      .then((response) =>  {
+        response.json()
+        console.log('wakanda')
+        setLoading(false)
+        toast.success("Message recieved succesfully")
+      })
       .then((result) => console.log(result))
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        setLoading(false)
+        console.log(isLoading)
+        toast.error("unable to create a user")
+      });
   };
   const { handleMainBodyClick } = useContext(GlobalContext)
   return (
@@ -54,6 +68,7 @@ const Contact = () => {
         />
         <input type="submit" value="Send Message" />
       </form>
+      {isLoading && <Loader />}
     </div>
   );
 };
